@@ -1,0 +1,7 @@
+pluginManagement {
+  repositories {
+    gradlePluginPortal()
+    maven { url = uri("https://nexus.edgeburnmedia.com/repository/edgeburnmediamaven/") }
+  }
+}
+rootProject.name = 'MakeUnbreakableCommand'

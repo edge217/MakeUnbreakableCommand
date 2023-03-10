@@ -1,0 +1,17 @@
+name: MakeUnbreakable
+version: "${version}"
+main: com.edgeburnmedia.makeunbreakable.MakeUnbreakable
+api-version: 1.19
+authors: [ edgeburnmedia ]
+description: Simple command to make existing items have the unbreakable tag
+commands:
+  makeunbreakable:
+    description: Make an item unbreakable
+    usage: /makeunbreakable
+    permission: makeunbreakable.makeunbreakable
+    permission-message: You do not have permission to use this command
+    aliases: [ unbr, unbreakable ]
+permissions:
+  makeunbreakablecommand.makeunbreakable:
+    description: Allows the use of the /makeunbreakable command
+    default: op
